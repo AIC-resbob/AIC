@@ -1,0 +1,25 @@
+# Core data science stack (EDA, feature engineering, preprocessing)
+numpy==2.1.3
+pandas==2.2.3
+matplotlib==3.10.0
+seaborn==0.13.2
+scipy==1.15.3
+
+# Modelling & hyperparameter tuning
+scikit-learn==1.6.1
+lightgbm==4.7.0
+xgboost==3.4.1
+optuna==4.9.0
+joblib==1.4.2
+
+# Notebook execution / kernel
+jupyter==1.1.1
+notebook==7.6.2
+nbformat==5.10.4
+nbconvert==7.16.6
+ipykernel==6.29.5
+
+# Deployment (Fitur A/B inference API skeleton, app.py)
+fastapi==0.141.1
+uvicorn==0.51.0
+pydantic==2.10.3

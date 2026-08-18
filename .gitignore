@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (regenerable by running stockflow_ai.ipynb end-to-end)
+models/
+
+# Claude Code local session state
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
